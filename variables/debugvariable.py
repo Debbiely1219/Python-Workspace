@@ -19,14 +19,16 @@ The function should print the sentence plus the volume and
 return the volume.
 '''
 def volumeCalculator(height, width, depth):
-    volume = depth * 125
+    volume = depth * area
     area = height * width
     sentence = "The volume of this object is: "
     print(sentence + volume)
-    return volume
+    return volume 
 
 #Leave the next line alone
 volumeCalculator(5, 5, 5)
+
+# This is not working, can not debug, what should i do i found 3 of 4 ?
 
 '''
 The goal of this function is to calculate the 
@@ -47,6 +49,7 @@ def shippingAndTax(subTotal):
 #Leave the next line alone
 shippingAndTax(15)
 
+#This is not working, can not debug, what should i do i found 2 of 3
 '''
 The goal of this function is to calculate the 
 total of an order after tax and shipping.
@@ -64,3 +67,5 @@ def circleArea(radius):
 
 #Leave the next line alone
 circleArea(5)
+
+#This is not working, can not debug, what should i do i found 2 of 3
