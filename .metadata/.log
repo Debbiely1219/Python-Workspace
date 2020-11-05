@@ -1836,3 +1836,227 @@ java.io.IOException: Connection reset by peer
 
 !ENTRY org.python.pydev.shared_core 4 4 2020-10-28 10:19:02.270
 !MESSAGE Info: Rebuilding internal caches: C:\Users\ITAUser\Desktop\Python Workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\survey\com.python.pydev.analysis\AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
+
+!ENTRY org.python.pydev.shared_core 4 4 2020-11-05 11:48:00.660
+!MESSAGE Info: Rebuilding internal caches: C:\Users\ITAUser\Desktop\Python Workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\comparisonoperators\com.python.pydev.analysis\AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
+
+!ENTRY org.python.pydev.shared_core 4 4 2020-11-05 11:51:36.572
+!MESSAGE ERROR reading shell. Message sent: @@CHANGE_PYTHONPATH:C%3A%5CUsers%5CITAUser%5CDesktop%5CPython+Workspace%5Ccomparisonoperators%7CC%3A%5CUsers%5CITAUser%5CAppData%5CLocal%5CPrograms%5CPython%5CPython38-32%5CDLLs%7CC%3A%5CUsers%5CITAUser%5CAppData%5CLocal%5CPrograms%5CPython%5CPython38-32%5Clib%7CC%3A%5CUsers%5CITAUser%5CAppData%5CLocal%5CPrograms%5CPython%5CPython38-32%7CC%3A%5CUsers%5CITAUser%5CAppData%5CLocal%5CPrograms%5CPython%5CPython38-32%5Clib%5Csite-packages
+END@@
+
+ProcessInfo:
+
+ - Executed: C:\Users\ITAUser\AppData\Local\Programs\Python\Python38-32\python.exe -u C:\Program Files\Brainwy\LiClipse 7.0.0\plugins\org.python.pydev.core_8.0.0.202009061243\pysrc\pycompletionserver.py 56456
+
+ - Environment:
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\ITAUser\AppData\Roaming
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=WIN-FB15VJ2
+COMSPEC=C:\windows\system32\cmd.exe
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOMEDRIVE=C:
+HOMEPATH=\Users\ITAUser
+LOCALAPPDATA=C:\Users\ITAUser\AppData\Local
+LOGONSERVER=\\WIN-FB15VJ2
+NUMBER_OF_PROCESSORS=4
+ONEDRIVE=C:\Users\ITAUser\OneDrive
+ONEDRIVECONSUMER=C:\Users\ITAUser\OneDrive
+OS=Windows_NT
+PATH=C:/Program Files/Brainwy/LiClipse 7.0.0/jre/bin/client;C:/Program Files/Brainwy/LiClipse 7.0.0/jre/bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files (x86)\Webex\Plugins;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\ITAUser\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\ITAUser\AppData\Local\Programs\Python\Python38-32\;C:\Users\ITAUser\AppData\Local\Microsoft\WindowsApps;C:\Users\ITAUser\AppData\Local\GitHubDesktop\bin;C:\Program Files\Brainwy\LiClipse 7.0.0;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=8e09
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+PYTHONPATH=C:\Program Files\Brainwy\LiClipse 7.0.0\plugins\org.python.pydev.core_8.0.0.202009061243\pysrc\pydev_sitecustomize;C:\Users\ITAUser\AppData\Local\Programs\Python\Python38-32\DLLs;C:\Users\ITAUser\AppData\Local\Programs\Python\Python38-32\lib;C:\Users\ITAUser\AppData\Local\Programs\Python\Python38-32;C:\Users\ITAUser\AppData\Local\Programs\Python\Python38-32\lib\site-packages
+SESSIONNAME=Console
+SYNAPROGDIR=Synaptics\SynTP
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\windows
+TEMP=C:\Users\ITAUser\AppData\Local\Temp
+TMP=C:\Users\ITAUser\AppData\Local\Temp
+USERDOMAIN=WIN-FB15VJ2
+USERDOMAIN_ROAMINGPROFILE=WIN-FB15VJ2
+USERNAME=ITAUser
+USERPROFILE=C:\Users\ITAUser
+WINDIR=C:\windows
+
+ - Working Dir:
+C:\Program Files\Brainwy\LiClipse 7.0.0\plugins\org.python.pydev.core_8.0.0.202009061243\pysrc
+
+ - OS:
+Windows 10
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.tryWrite(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.blockingWriteFully(Unknown Source)
+	at java.base/sun.nio.ch.SocketAdaptor$2.write(Unknown Source)
+	at java.base/java.io.OutputStream.write(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.write(AbstractShell.java:557)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:708)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:701)
+	at org.python.pydev.ast.codecompletion.shell.CompletionsShell.internalChangePythonPath(CompletionsShell.java:44)
+	at org.python.pydev.ast.codecompletion.shell.CompletionsShell.getLineCol(CompletionsShell.java:82)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.findDefinition(CompiledModule.java:613)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.findDefinition(CompiledModule.java:1)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.internalFindGlobalTokDef(SourceModule.java:1336)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findGlobalTokDef(SourceModule.java:1188)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findDefinitionsFromModAndTok(SourceModule.java:1130)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:1112)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:764)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:1)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:185)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:84)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:101)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:157)
+
+!ENTRY org.python.pydev.shared_core 4 4 2020-11-05 11:55:43.656
+!MESSAGE ERROR reading shell. Message sent: @@CHANGE_PYTHONPATH:C%3A%5CUsers%5CITAUser%5CDesktop%5CPython+Workspace%5Ccomparisonoperators%7CC%3A%5CUsers%5CITAUser%5CAppData%5CLocal%5CPrograms%5CPython%5CPython38-32%5CDLLs%7CC%3A%5CUsers%5CITAUser%5CAppData%5CLocal%5CPrograms%5CPython%5CPython38-32%5Clib%7CC%3A%5CUsers%5CITAUser%5CAppData%5CLocal%5CPrograms%5CPython%5CPython38-32%7CC%3A%5CUsers%5CITAUser%5CAppData%5CLocal%5CPrograms%5CPython%5CPython38-32%5Clib%5Csite-packages
+END@@
+
+ProcessInfo:
+
+ - Executed: C:\Users\ITAUser\AppData\Local\Programs\Python\Python38-32\python.exe -u C:\Program Files\Brainwy\LiClipse 7.0.0\plugins\org.python.pydev.core_8.0.0.202009061243\pysrc\pycompletionserver.py 54859
+
+ - Environment:
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\ITAUser\AppData\Roaming
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=WIN-FB15VJ2
+COMSPEC=C:\windows\system32\cmd.exe
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOMEDRIVE=C:
+HOMEPATH=\Users\ITAUser
+LOCALAPPDATA=C:\Users\ITAUser\AppData\Local
+LOGONSERVER=\\WIN-FB15VJ2
+NUMBER_OF_PROCESSORS=4
+ONEDRIVE=C:\Users\ITAUser\OneDrive
+ONEDRIVECONSUMER=C:\Users\ITAUser\OneDrive
+OS=Windows_NT
+PATH=C:/Program Files/Brainwy/LiClipse 7.0.0/jre/bin/client;C:/Program Files/Brainwy/LiClipse 7.0.0/jre/bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files (x86)\Webex\Plugins;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\ITAUser\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\ITAUser\AppData\Local\Programs\Python\Python38-32\;C:\Users\ITAUser\AppData\Local\Microsoft\WindowsApps;C:\Users\ITAUser\AppData\Local\GitHubDesktop\bin;C:\Program Files\Brainwy\LiClipse 7.0.0;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=8e09
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+PYTHONPATH=C:\Program Files\Brainwy\LiClipse 7.0.0\plugins\org.python.pydev.core_8.0.0.202009061243\pysrc\pydev_sitecustomize;C:\Users\ITAUser\AppData\Local\Programs\Python\Python38-32\DLLs;C:\Users\ITAUser\AppData\Local\Programs\Python\Python38-32\lib;C:\Users\ITAUser\AppData\Local\Programs\Python\Python38-32;C:\Users\ITAUser\AppData\Local\Programs\Python\Python38-32\lib\site-packages
+SESSIONNAME=Console
+SYNAPROGDIR=Synaptics\SynTP
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\windows
+TEMP=C:\Users\ITAUser\AppData\Local\Temp
+TMP=C:\Users\ITAUser\AppData\Local\Temp
+USERDOMAIN=WIN-FB15VJ2
+USERDOMAIN_ROAMINGPROFILE=WIN-FB15VJ2
+USERNAME=ITAUser
+USERPROFILE=C:\Users\ITAUser
+WINDIR=C:\windows
+
+ - Working Dir:
+C:\Program Files\Brainwy\LiClipse 7.0.0\plugins\org.python.pydev.core_8.0.0.202009061243\pysrc
+
+ - OS:
+Windows 10
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.tryWrite(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.blockingWriteFully(Unknown Source)
+	at java.base/sun.nio.ch.SocketAdaptor$2.write(Unknown Source)
+	at java.base/java.io.OutputStream.write(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.write(AbstractShell.java:557)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:708)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:701)
+	at org.python.pydev.ast.codecompletion.shell.CompletionsShell.internalChangePythonPath(CompletionsShell.java:44)
+	at org.python.pydev.ast.codecompletion.shell.CompletionsShell.getLineCol(CompletionsShell.java:82)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.findDefinition(CompiledModule.java:613)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.findDefinition(CompiledModule.java:1)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.internalFindGlobalTokDef(SourceModule.java:1336)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findGlobalTokDef(SourceModule.java:1188)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findDefinitionsFromModAndTok(SourceModule.java:1130)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:1112)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:764)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:1)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:185)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:84)
+	at org.python.pydev.ast.codecompletion.PyCodeCompletion.handleKeywordParam(PyCodeCompletion.java:584)
+	at org.python.pydev.ast.codecompletion.PyCodeCompletion.getCodeCompletionProposals(PyCodeCompletion.java:197)
+	at org.python.pydev.editor.codecompletion.PythonCompletionProcessor.getPythonProposals(PythonCompletionProcessor.java:235)
+	at org.python.pydev.editor.codecompletion.PythonCompletionProcessor.computeCompletionProposals(PythonCompletionProcessor.java:169)
+	at org.python.pydev.editor.codecompletion.SimpleAssistProcessor.computeCompletionProposals(SimpleAssistProcessor.java:287)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.lambda$0(ContentAssistant.java:2015)
+	at java.base/java.util.Collections$SingletonSet.forEach(Unknown Source)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.run(ContentAssistant.java:2014)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.computeCompletionProposals(ContentAssistant.java:2011)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.computeProposals(CompletionProposalPopup.java:576)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.lambda$0(CompletionProposalPopup.java:506)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.showProposals(CompletionProposalPopup.java:501)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.lambda$0(ContentAssistant.java:380)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3897)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3527)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at com.brainwy.liclipse.rcp.IDEApplication.start(IDEApplication.java:236)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
