@@ -1,8 +1,3 @@
-''' i added print after everyone to make sure it was correct.
-if you would like me to remove and resubmit the assignment
-please let me know 
-'''
-
 b = "dog" == "cat"
 print(b)
 
@@ -53,5 +48,96 @@ r = 9.797958971
 s = 73.96
 t = r >= s 
 print(t)
+
+4 == 5 
+#False 
+
+5 == 5
+#True 
+
+3 == 3 
+#True 
+
+a = 2 
+a == 2 
+#True 
+
+a = 3 
+b = 2 
+a == b 
+#False 
+
+a = 4
+b = 4
+a == b 
+#True 
+
+a = 6 
+b = (12/2)
+a == b 
+#True 
+
+a = (3/3)
+b = (13/13)
+a == b 
+#True 
+
+a = 3 
+b = 9/3 
+a == b 
+#True 
+
+a = "word"
+b = "Word"
+a == b 
+#False 
+
+(10/5) == (12/6)
+#True 
+
+(14/7) == (15/5)
+#False 
+
+a = 10 
+b = 5
+(a/b) == 2 
+#True 
+
+a = 10 
+b = 5 
+(a/b) == (12/6)
+#True 
+
+a = 10 
+b = 5 
+c = 12
+d = 6 
+(a/b) == (12/6)
+#True 
+
+a = "something"
+b = "some thing"
+a == b 
+#False 
+
+a = "word"
+b = "word"
+a == b 
+#True
+
+a = True 
+a == True 
+#True 
+
+a = True 
+b = False
+a == b 
+#False 
+
+a = True 
+A = False 
+b = False 
+A == b 
+#True
 
 
