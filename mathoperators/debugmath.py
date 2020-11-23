@@ -1,4 +1,4 @@
-''
+'''
 The following functions have problems that keep them from
 completing the task that they have to do.
 All the problems are either Logical or Syntactical errors with Mathematical 
