@@ -11,7 +11,6 @@ miles = input("How many miles would you like to convert?")
 
 #Convert miles to yards, using the following:
 # 1 mile = 1760 yards.
-#
 #Store the value in a variable called yards and print it out with a 
 #simple statement.
 yards = miles * 1760
@@ -19,7 +18,6 @@ print(str(miles) + " converts to " + str(yards) + " yards.")
 
 #Convert miles to feet, using the following:
 # 1 mile = 5280 feet.
-#
 #Store the value in a variable called feet and print it out with a 
 #simple statement.
 feet = miles * 5280
