@@ -66,5 +66,7 @@ elif(cold or cloudy):
     print ("only one")
 else:
     print ("neither")
+    
+    
 
 
